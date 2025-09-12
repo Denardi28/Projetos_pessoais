@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg,#1D6A35, #15572B, #0E4622);
+    font-family: "Mozilla Headline", sans-serif;
+}
+h1{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    color: white;
+   
+}
+main{
+    position: absolute;
+    left: 300px;
+    top: 40px;
+}
+
+.LOJA h3,
+.COMUNIDADE h3,
+.SOBRE h3,
+.SUPORTE h3 {
+  position: relative; /* Permite que a barrinha fique próxima ao texto */
+  display: inline-block; /* garante que ele se comporte como um bloco na vertical, permitindo utilizar o after */
+  cursor: pointer; /* Transforma o mouse em uma mão quando passa por cima */
+  color: white;
+}
+
+.LOJA h3::after,
+.COMUNIDADE h3::after,
+.SOBRE h3::after,
+.SUPORTE h3::after { /* Cria um outro elemento a partir desse */
+  content: ""; /* Necessário para funcionar */
+  position: absolute; /* A barra fica posicionada de forma precisa em relação ao texto */
+  bottom: -5px; /* Posiciona a barra 5px pra baixo */
+  left: 0;
+  width: 0%; /* A barra permanece invísivel */
+  height: 3px;
+  background-color: #069a50; /* verde neon */
+  transition: width 0.3s ease; /* Animação da barra */
+}
+
+.LOJA h3:hover::after,
+.COMUNIDADE h3:hover::after,
+.SOBRE h3:hover::after,
+.SUPORTE h3:hover::after { /* Faz com que quando passar por cima do texto(hover), a barra(after) apareça */
+  width: 100%;
+}
+
+.secao1{
+   position: absolute;
+   left: 400px;
+}
+.LOJA {
+    position: absolute;
+    left: 300px;
+    color: white;
+}
+.COMUNIDADE {
+    position: absolute;
+    left: 400px;
+    color: white;
+}
+.SOBRE {
+    position: absolute;
+    left: 575px;
+    color: white;
+}
+.SUPORTE {
+    position: absolute;
+    left: 700px;
+    color: white;
+}
+.INICIAR{
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 5px 1050px;
+}
+.INSTALADOR{
+    z-index: 1;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 850px;
+    white-space: nowrap;
+}
+input[type="text"]{
+    position: absolute;
+    color: white;
+    background-color: rgb(69, 69, 125);
+    top: 200px;
+    right:250px;
+    width: 150px;
+    height: 30px;
+    outline-color: rgb(72, 162, 247);
+    border-radius: 10px;
+}
+.foto{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.foto2{
+    background-size: cover;      
+    background-position: center;                    
+    text-align: center;            
+    width: 100% ;
+    height: 100px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 2);
+}
+.foto3{
+    position: absolute;
+    height: 50px;
+    width: 1000px;
+    left: 300px;
+    top: 189px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 2);
+    border-radius: 10px;
+}
+.quadrado{
+    position: fixed;
+    top: 5px;
+    left: 1215px;
+    width: 210px;         
+    height: 30px;        
+    background-color: rgb(24, 83, 2);
+    border-radius: 5px;
+}
+.foto4{
+    z-index: 2;
+    position: fixed;
+    top: 4px;
+    left: 1390px;
+    width: 30px;         
+    height: 30px;    
+    color: white;  
+}
+.foto5{
+    z-index: 3;
+    position: absolute;
+    top: 200px;
+    right: 238px;
+    width: 50px;
+    height: 32px;
+    border-radius: 10px;
+}
+.foto6{
+    z-index: 2;
+    position: fixed;
+    top: 5px;
+    left: 1218px;
+    width: 30px;         
+    height: 30px;    
+    color: white;  
+}
