@@ -85,7 +85,7 @@ main{
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 5px 1050px;
+    padding: 5px 1300px;
 }
 .INSTALADOR{
     z-index: 1;
@@ -93,7 +93,7 @@ main{
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 10px 850px;
+    padding: 10px 1100px;
     white-space: nowrap;
 }
 input[type="text"]{
@@ -134,7 +134,7 @@ input[type="text"]{
 .quadrado{
     position: fixed;
     top: 5px;
-    left: 1215px;
+    left: 1467px;
     width: 210px;         
     height: 30px;        
     background-color: rgb(24, 83, 2);
@@ -144,7 +144,7 @@ input[type="text"]{
     z-index: 2;
     position: fixed;
     top: 4px;
-    left: 1390px;
+    left: 1641px;
     width: 30px;         
     height: 30px;    
     color: white;  
@@ -156,14 +156,76 @@ input[type="text"]{
     right: 238px;
     width: 50px;
     height: 32px;
-    border-radius: 10px;
+    border-radius: 80px;
 }
 .foto6{
     z-index: 2;
     position: fixed;
     top: 5px;
-    left: 1218px;
+    left: 1467px;
     width: 30px;         
     height: 30px;    
     color: white;  
 }
+.secao2{
+    position: absolute;
+    left: 1535px;
+    top: 0px;
+}
+.SUALOJA {
+    top: 205px;
+    position: absolute;
+    left: -1175px;
+    color: white;
+}
+.NOVIDADE {
+    top: 205px;
+    position: absolute;
+    left: -1075px;
+    color: white;
+}
+.CATEGORIAS {
+    top: 205px;
+    position: absolute;
+    left: -875px;
+    color: white;
+}
+.PONTOS {
+    top: 205px;
+    position: absolute;
+    left: -750px;
+    color: white;
+}
+.NOTÍCIAS {
+    top: 205px;
+    position: absolute;
+    left: -600px;
+    color: white;
+}
+.LABORATÓRIO {
+    top: 205px;
+    position: absolute;
+    left: -510px;
+    color: white;
+}
+.RETANGULO{
+    position: fixed;
+    top: 250px;
+    left: 325px;
+    width: 0%;
+    /*width: 300px; */        
+    height: 100px;        
+    background-color: rgb(129, 129, 129);
+    border-radius: 5px; 
+}
+.SUALOJA:hover {
+    text-underline-position: absolute;
+    position: fixed;
+    top: 235px;
+    left: 325px;
+    width: 300px;       
+    height: 100px;        
+    background-color: rgb(129, 129, 129);
+    border-radius: 5px; 
+}
+     
